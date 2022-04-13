@@ -5,13 +5,13 @@
 
 - Tilemaps
 - Player collision to detect isJumping
-- moveSpeed
-- jumpForce
+- 2D Physics: moveSpeed, jumpForce
 - Camera follows player
+- Sprite player animation
+- Clamping moveSpeed
+- Bug fix: smooth movement over tilemaps via Composite Collider 2D
 
 ## Progressions
 
-- Clamping moveSpeed
-- Sprite animation
 - Cut scenes
 - Multiple levels & Transitions

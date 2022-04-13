@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 1c572b83be8a8c6468961bce9edebfeb
+guid: a8132d91887a5b74db43759b9eea61ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8019239915147560276
-    second: Cyborg_idle_0
+      213: -2760476029438245614
+    second: Cyborg_run_0
   - first:
-      213: -6526221278753614019
-    second: Cyborg_idle_1
+      213: 5798244199525097649
+    second: Cyborg_run_1
   - first:
-      213: -1626806750166959302
-    second: Cyborg_idle_2
+      213: -5068142148817044500
+    second: Cyborg_run_2
   - first:
-      213: 7969078075045196988
-    second: Cyborg_idle_3
+      213: 7958664899273603240
+    second: Cyborg_run_3
+  - first:
+      213: 1971013790562645882
+    second: Cyborg_run_4
+  - first:
+      213: 8889248399938843937
+    second: Cyborg_run_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -54,7 +60,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -115,7 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cyborg_idle_0
+      name: Cyborg_run_0
       rect:
         serializedVersion: 2
         x: 0
@@ -129,14 +135,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caafef0f8cfe5b090800000000000000
-      internalID: -8019239915147560276
+      spriteID: 2154a564da1d0b9d0800000000000000
+      internalID: -2760476029438245614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cyborg_idle_1
+      name: Cyborg_run_1
       rect:
         serializedVersion: 2
         x: 48
@@ -150,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d379b4a03543e65a0800000000000000
-      internalID: -6526221278753614019
+      spriteID: 1b0a9a90160877050800000000000000
+      internalID: 5798244199525097649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cyborg_idle_2
+      name: Cyborg_run_2
       rect:
         serializedVersion: 2
         x: 96
@@ -171,14 +177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3b371241eb6c69e0800000000000000
-      internalID: -1626806750166959302
+      spriteID: ceb339c51975aa9b0800000000000000
+      internalID: -5068142148817044500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cyborg_idle_3
+      name: Cyborg_run_3
       rect:
         serializedVersion: 2
         x: 144
@@ -192,8 +198,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb43c6a894ad79e60800000000000000
-      internalID: 7969078075045196988
+      spriteID: 8a8b29f1f8bd27e60800000000000000
+      internalID: 7958664899273603240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyborg_run_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77f1e189927a5b10800000000000000
+      internalID: 1971013790562645882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyborg_run_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125709e8254fc5b70800000000000000
+      internalID: 8889248399938843937
       vertices: []
       indices: 
       edges: []
