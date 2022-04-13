@@ -3,10 +3,15 @@
 
 ## Progress from last project
 
-- Tilemaps!
+- Tilemaps
+- Player collision to detect isJumping
+- moveSpeed
+- jumpForce
+- Camera follows player
 
 ## Progressions
 
+- Clamping moveSpeed
 - Sprite animation
 - Cut scenes
 - Multiple levels & Transitions
