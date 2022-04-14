@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Platform
   - Exit
+  - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX

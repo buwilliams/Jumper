@@ -23,7 +23,7 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player") return;
 
-        Debug.Log($"Collision with {collision.gameObject.name} detected, destroying myself!");
+        Debug.Log($"Bullet collision with {collision.gameObject.name} detected, destroying myself!");
         Destroy(gameObject);
     }
 }
