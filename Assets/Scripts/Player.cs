@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -84,16 +82,12 @@ public class Player : MonoBehaviour
         if (facingRight && horizontalMovement < 0) // facing right, turn left
         {
             Debug.Log("Turning to face left");
-            //GetComponent<SpriteRenderer>().flipX = true;
-            //gameObject.transform.localScale = new Vector3(-1, 1, 1);
             transform.Rotate(0f, 180f, 0f);
             facingRight = false;
         }
         else if (!facingRight && horizontalMovement > 0) // facing left, turn right
         {
             Debug.Log("Turning to face right");
-            //GetComponent<SpriteRenderer>().flipX = false;
-            //gameObject.transform.localScale = new Vector3(1, 1, 1);
             transform.Rotate(0f, 180f, 0f);
             facingRight = true;
         }

@@ -17,6 +17,7 @@ Tilemaps and Player movement via Unity 2D Physics
 - Level 2
 - Scene transition from level 1 to level 2
 - [Bug] Tearing in the Scene randomly
+- [Bug] On load the Player fires bullet in wrong direction
 
 ## Completed
 
