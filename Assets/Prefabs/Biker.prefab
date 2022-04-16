@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  bulletDamage: 10
+  bulletDamage: 25
   healthBar: {fileID: 6619703257210200970}
 --- !u!1 &6619703257210200970
 GameObject:

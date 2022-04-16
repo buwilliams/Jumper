@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float health = 100;
-    public float bulletDamage = 10;
+    public float bulletDamage = 25;
     public GameObject healthBar;
 
     private float startingHealth;
